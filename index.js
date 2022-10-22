@@ -1,9 +1,9 @@
- var readlineSync = require('readline-sync');
 var score = 0;
 var questionA = "am i vadapav " ;
 var answerQuestionA = "yes";
 var questionB = "whats yout fav color ";
-var answerQuestionB = "red";
+var answerQuestionB = "red" var readlineSync = require('readline-sync');
+;
 // input
 
 var userNameAge = readlineSync.question(questionA);
@@ -31,7 +31,7 @@ if (userFavColor === answerQuestionB){
 }
 
 
-// var readlineSync = require('readline-sync');
+// // var readlineSync = require('readline-sync');
 //  var userName = readlineSync.question('May I have your name? ');
 // console.log('Hi ' + userName + '!');
  
